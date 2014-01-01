@@ -8,7 +8,7 @@ run	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1DB8ADC1CFCA9579
 run	apt-get update
 run	apt-get install -y -q wget curl
 run	apt-get install -y -q build-essential
-run	apt-get install -y -q cmake
+run	apt-get install -y -q cmake libgtk2.0-dev pkg-config
 run	apt-get install -y -q python2.7 python2.7-dev
 run	wget 'https://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg' && /bin/sh setuptools-0.6c11-py2.7.egg && rm -f setuptools-0.6c11-py2.7.egg
 run	curl 'https://raw.github.com/pypa/pip/master/contrib/get-pip.py' | python2.7
