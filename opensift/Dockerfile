@@ -1,4 +1,4 @@
-from	steeve/docker-opencv
+from	joshjdevl/docker-opencv
 
 RUN apt-get update && apt-get install -y git gtk+-2.0
 RUN mkdir -p /opensift && cd /opensift && git clone https://github.com/robwhess/opensift.git

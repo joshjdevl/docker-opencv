@@ -1,1 +1,1 @@
-sudo docker build -t="steeve/docker-opencv" .
+sudo docker build -t="joshjdevl/docker-opencv" .
