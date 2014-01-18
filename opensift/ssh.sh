@@ -1,3 +1,0 @@
-./startssh.sh
-
-./connectssh.sh
